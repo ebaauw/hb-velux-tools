@@ -1,0 +1,52 @@
+{
+  "name": "hb-velux-tools",
+  "description": "Homebridge Velux Tools",
+  "author": "Erik Baauw",
+  "maintainers": [
+    "ebaauw"
+  ],
+  "license": "Apache-2.0",
+  "version": "2.0.9",
+  "type": "module",
+  "exports": {
+    "./*": "./lib/*.js"
+  },
+  "keywords": [
+    "velux",
+    "integra",
+    "klf200",
+    "roller shutter"
+  ],
+  "bin": {
+    "velux": "cli/velux.js"
+  },
+  "engines": {
+    "node": "^22||^20||^18"
+  },
+  "dependencies": {
+    "hb-lib-tools": "~2.1.3",
+    "mdns": "^2.7.2"
+  },
+  "scripts": {
+    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/hb-velux-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/hb-velux-tools/issues"
+  },
+  "homepage": "https://github.com/ebaauw/hb-velux-tools#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
+}
