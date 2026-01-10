@@ -29,7 +29,7 @@
     "node": "^24||^22||^20"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.2.14"
+    "hb-lib-tools": "~2.2.15"
   },
   "scripts": {
     "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
